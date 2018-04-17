@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_root_ega"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/out_pu_tv_ega"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:textColor="@color/trans_red"
+        android:textIsSelectable="true"
+        android:textSize="38sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:id="@+id/out_ega_g1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        
+        <TextView
+        android:id="@+id/out_pu_tv_ega_week_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:textColor="@color/trans_red"
+        android:textIsSelectable="true"
+        android:textSize="38sp"
+        android:textStyle="bold|italic"
+        android:layout_weight="1" />
+    
+    <TextView
+        android:id="@+id/out_pu_tv_ega_day_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:textColor="@color/trans_red"
+        android:textIsSelectable="true"
+        android:textSize="38sp"
+        android:textStyle="bold|italic" 
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:id="@+id/out_ega_g2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+           >     
+        
+        <TextView
+        android:id="@+id/out_pu_tv_ega_week"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:textColor="@color/trans_red"
+        android:textIsSelectable="true"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        android:layout_weight="1"
+        android:text="@string/weeks" 
+        android:layout_gravity="center"/>
+    
+    <TextView
+        android:id="@+id/out_pu_tv_ega_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:textColor="@color/trans_red"
+        android:textIsSelectable="true"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" 
+        android:layout_weight="1"
+        android:text="@string/days"
+        android:layout_gravity="center"/>
+    </LinearLayout>
+    
+</LinearLayout>
